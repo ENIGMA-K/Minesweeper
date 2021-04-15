@@ -34,25 +34,25 @@
 
 1. 相关对象命名
 
-  - 雷区/雷场（MineField）：
+- 雷区/雷场（MineField）：
 
-    &emsp;指的是游戏进行的整个区域，一般的，雷场由目标构成。雷场的大小为sizeI行，sizeJ列，以左上角坐标为(0,0)。
+&emsp;指的是游戏进行的整个区域，一般的，雷场由目标构成。雷场的大小为sizeI行，sizeJ列，以左上角坐标为(0,0)。
 
-  - 目标（Target)：
+- 目标（Target)：
 
-    &emsp;指的是雷区中的所有的点。Target类中包括如下方面：
+&emsp;指的是雷区中的所有的点。Target类中包括如下方面：
 
-    1. \_id（编号，用于检索）
-    2. \_pos（位置，用于定位）
-    3. \_content（内容，表示某一目标是不是雷以及周围有多少雷）
-    4. \_status（状态，共三种，a. revealed，b. unrevealed，c. flagged）
+  1. \_id（编号，用于检索）
+  2. \_pos（位置，用于定位）
+  3. \_content（内容，表示某一目标是不是雷以及周围有多少雷）
+  4. \_status（状态，共三种，a. revealed，b. unrevealed，c. flagged）
 
-  - 位置（Position）：
+- 位置（Position）：
 
-    &emsp;指的是某一个目标在雷区中的定位，其中包括：
+&emsp;指的是某一个目标在雷区中的定位，其中包括：
 
-    1. pos_i（目标所在行）
-    2. pos_j（目标所在列）
+  1. pos_i（目标所在行）
+  2. pos_j（目标所在列）
 
 ## 第三部分 解题程序设计
 
